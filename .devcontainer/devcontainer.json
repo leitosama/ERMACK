@@ -3,5 +3,5 @@
   "features": {
   },
   "forwardPorts": [ 8000 ],
-  "postCreateCommand": "python -m venv .venv && source ./.venv/bin/activate && pip install -r requirements.txt"
+  "postCreateCommand": "pip install -r requirements.txt && python main.py mkdocs -a -i && cd build && python -m mkdocs server -a 127.0.0.1:8000"
 }

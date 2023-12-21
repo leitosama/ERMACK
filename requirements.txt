@@ -6,7 +6,7 @@ mkdocs-exclude==1.0.2
 mkdocs-material==9.1.0
 mkdocs-material-extensions==1.1.1
 mkdocs-glightbox==0.3.4
-PyYAML==6.0
+PyYAML>=6.0
 tqdm==4.64.1
 docopt==0.6.2
 cpe==1.2.1

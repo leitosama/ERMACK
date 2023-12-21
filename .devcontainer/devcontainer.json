@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "features": {
+  },
+  "forwardPorts": [ 8000 ],
+  "postCreateCommand": "python -m venv .venv && source ./.venv/bin/activate && pip install -r requirements.txt"
+}
